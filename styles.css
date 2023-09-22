@@ -1,0 +1,272 @@
+*{
+    
+    color: var(--colour);
+    background-color: var(--background-color);
+    font-family: var(--font-family);
+}
+:root{
+    --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    --background-color: rgb(235, 235, 235); 
+    --colour:rgb(181, 0, 0);
+}
+.dark_mode{
+    --background-color: rgb(84, 41, 136); 
+    --colour:rgb(255, 255, 255);
+    
+}
+
+body{
+   
+    height: 100;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.main{
+    padding: 5px;
+   
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+/*nav*/
+.nav_bar{
+   
+    display: flex;
+    
+    
+    justify-content: space-between;
+   
+    align-items: center;
+    
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.nav-left{
+    display: flex;
+    gap: 15px;
+    
+
+}
+.nav-left i{
+    color: black;
+    
+
+}
+
+.nav-right a,.nav-left a{
+    text-decoration: none;
+    
+    
+
+}
+
+
+/*cover page*/
+.cover-page{
+   
+   
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+
+    
+    
+}
+.cover-top{
+    width: 90vw;
+    padding: 50px 0px;
+    
+    
+   
+}
+.cover-top img{
+    width: 100%;
+}
+.cover-middle{
+   
+    font-size: 1.5rem;
+    color: rgb(14, 14, 10);
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+/*reviews*/
+.reviews{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   font-size: 1.6rem;
+   text-transform: capitalize;
+   font-weight: 500;
+
+
+
+}
+.heading{
+    color: rgb(2, 84, 84);
+}
+.books{
+    height: 33vh;
+    width: 95vw;
+    border-top: solid;
+    border-color: rgb(136, 136, 136);
+    border-width: 2px;
+    margin-top: 35px;
+   
+}
+.books-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+
+}
+.book-img {
+    width: 30vw;
+    height: 18vh;
+    
+}
+.book-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.book-dtl{
+    width: 65vw;
+    
+    padding-top: 7px;
+    padding-left: 5px;
+    justify-content: center;
+    
+ 
+    
+    display: flex;
+    flex-direction: column;
+}
+.book-dtl w{
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: rgb(86, 86, 86);
+    width: 60vw;
+    
+}
+.book-dtl h{
+    width: 60vw;
+    font-size: 1.2rem;
+
+}
+.book-dtl x{
+    font-size: 1rem;
+    width: 60vw;
+}
+.book-dtl y{
+    font-size: 0.7rem;
+    display: flex;
+    margin-right: 30px;
+    color: goldenrod;
+    justify-content: flex-end;
+}
+.book-dtl x i{
+    color: goldenrod;
+}
+
+.books-summ{
+    width: 95vw;
+    
+    height: 15vh;
+    padding: 5px;
+}
+
+.summary{
+    font-size: 0.8rem;
+    height: 10vh;
+    
+}
+.reviewd-by{
+    font-size: 0.9rem;
+   
+}
+.reviewd-by n{
+    color: black;
+}
+.reviewd-by m{
+    color: goldenrod;
+}
+
+
+
+
+/*footer*/
+.footer{
+    background-color: rgb(237, 237, 212);
+    
+    height: 40vh;
+    padding: 10px 10px;
+   
+
+}
+.services{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.services h, .about-us h{
+    background-color: transparent;
+    font-size: 1.33rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: rgb(43, 40, 35);
+}
+.services a, .about-us a{
+    background-color: transparent;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(83, 68, 39);
+
+}
+.about-us{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    gap: 10px;
+}
+.links, .links i, .links a{
+    display: flex;
+    color: black;
+    flex-direction: row;
+    background-color: transparent;
+    gap: 5px;
+    font-size: 1.6rem;
+    justify-content: center;
+    text-decoration: none;
+}
+.copywright{
+    transform: translateY(10px);
+}
+.copywright, .copywright i{
+    display: flex;
+    
+   
+    justify-content: center;
+    background-color: transparent;
+    color: black;
+}
+
+
+
+
